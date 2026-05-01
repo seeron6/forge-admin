@@ -1,0 +1,21 @@
+{
+  "forge_version": "1",
+  "slug": "admin-canonical",
+  "category": "internal-tools",
+  "name": "Admin Panel",
+  "description": "An opinionated admin shell. Point it at your schema, get a CRUD UI, search, filtering, role gates, and an audit-stamped impersonation flow. Designed to be customized one field at a time.",
+  "parent_id": null,
+  "is_base": true,
+  "stack": {
+    "language": "react",
+    "framework": "trpc",
+    "runtime": "node"
+  },
+  "connectors": [
+    "browse",
+    "rbac",
+    "impersonate",
+    "bulk"
+  ],
+  "config_schema_version": "1.0.0"
+}
