@@ -1,0 +1,19 @@
+{
+  "name": "@seeron6/forge-admin",
+  "version": "0.1.0",
+  "description": "Resource browser with RBAC, impersonation, and bulk actions.",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "test": "echo 'no tests yet' && exit 0"
+  },
+  "keywords": [
+    "forge",
+    "framework",
+    "admin",
+    "react",
+    "trpc",
+    "postgres"
+  ],
+  "license": "MIT"
+}
