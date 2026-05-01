@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0.0",
+  "sections": [
+    {
+      "key": "features",
+      "label": "Feature toggles",
+      "fields": [
+        {
+          "key": "browse.enabled",
+          "type": "boolean",
+          "label": "Enable Resource browser",
+          "default": true
+        },
+        {
+          "key": "rbac.enabled",
+          "type": "boolean",
+          "label": "Enable Role gates",
+          "default": true
+        },
+        {
+          "key": "impersonate.enabled",
+          "type": "boolean",
+          "label": "Enable Impersonation",
+          "default": true
+        },
+        {
+          "key": "bulk.enabled",
+          "type": "boolean",
+          "label": "Enable Bulk actions",
+          "default": true
+        }
+      ]
+    },
+    {
+      "key": "theming",
+      "label": "Branding",
+      "fields": [
+        {
+          "key": "brand_name",
+          "type": "string",
+          "label": "Product name",
+          "default": ""
+        },
+        {
+          "key": "brand_color",
+          "type": "color",
+          "label": "Primary brand colour",
+          "default": "#ff6b1f"
+        }
+      ]
+    }
+  ]
+}
